@@ -9,7 +9,7 @@ class Style {
       this.marginLeft,
       this.marginTop,
       this.marginRight,
-      this.marginBototm,
+      this.marginBottom,
       this.padding,
       this.paddingLeft,
       this.paddingTop,
@@ -27,18 +27,18 @@ class Style {
 
   Color? color;
   Color? background;
-  final num? width;
-  final num? height;
+  final double? width;
+  final double? height;
 
-  final List<num>? margin;
-  final num? marginLeft;
-  final num? marginTop;
-  final num? marginRight;
-  final num? marginBototm;
+  final List<double>? margin;
+  final double? marginLeft;
+  final double? marginTop;
+  final double? marginRight;
+  final double? marginBottom;
 
-  final List<num>? padding;
-  final num? paddingLeft;
-  final num? paddingTop;
-  final num? paddingRight;
-  final num? paddingBototm;
+  final List<double>? padding;
+  final double? paddingLeft;
+  final double? paddingTop;
+  final double? paddingRight;
+  final double? paddingBototm;
 }
